@@ -1,0 +1,74 @@
+.delete-form {
+    margin: 50px auto;
+    max-width: 850px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: rgb(37, 99, 186)333;
+    border-radius: 13px;
+}
+
+.delete-form legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1077c0;
+    border-bottom: 2px solid #2646e4;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.delete-form table {
+    width: 100%;
+}
+
+.delete-form td {
+    padding: 8px;
+    color: #333;
+}
+
+.delete-form hr {
+    border: none;
+    height: 1px;
+    background-color: #268be4;
+    margin: 10px 0;
+}
+
+.delete-form img {
+    width: 148px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid #26e465;
+    margin: 10px 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.delete-form input[type="submit"] {
+    background-color: #db525d;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+    display: block;
+    margin: 15px 0;
+}
+
+.delete-form input[type="submit"]:hover {
+    background-color: #d1401f;
+}
+
+.delete-form a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s ease-in-out;
+}
+
+.delete-form a:hover {
+    color: #2980b9;
+}

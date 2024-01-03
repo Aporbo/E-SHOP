@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    color: #333;
+    text-align: center;
+}
+
+.custom-table {
+    border: 1px solid #ddd;
+    /* width: 80%; */
+    border-collapse: collapse;
+    /* margin: 20px auto; */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.custom-table th {
+    background-color: #333333;
+    color: #14599e;
+}
+
+.custom-table h3 {
+    margin: 0;
+    color: #005791;
+}
+
+.custom-table select,
+.custom-table input[type="text"],
+.custom-table input[type="file"],
+.custom-table textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.custom-table input[type="submit"],
+.custom-table input[type="reset"],
+.custom-table a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #fff;
+}
+.custom-table td img {
+    width: 60%;
+    height: 50%;
+    border-radius: 50px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+}
+
+.custom-table input[type="submit"],
+.custom-table input[type="reset"] {
+    background-color: rgb(3, 85, 126);
+    border: none;
+    color: #ffffff;
+}
+
+.custom-table a {
+    background-color: rgb(13, 56, 78);
+}
+
+.custom-table input[type="submit"]:hover,
+.custom-table input[type="reset"]:hover,
+.custom-table a:hover {
+    background-color: #009130;
+}

@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.user-detail {
+    max-width: 600px;
+    margin-left: 290px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header h2 {
+    margin: 0;
+    color: #0805ab;
+    font-size: 24px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.user-info {
+    margin-bottom: 10px;
+}
+
+.label {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+    color: #1913be;
+}
+
+.value {
+    display: inline-block;
+    color: #333;
+    text-decoration: underline;
+}
+
+.user-image img {
+    height: 120px;
+    width: 138px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.edit-btn {
+    background-color: #4CAF50;
+}
+
+.delete-btn {
+    background-color: #f44336;
+}
+
+.back-btn {
+    background-color: #3498db;
+}

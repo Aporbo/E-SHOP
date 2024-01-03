@@ -1,0 +1,54 @@
+
+fieldset {
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    padding: 20px;
+    width: 600px; 
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #3498db;
+}
+
+table {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #03619f;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(4, 110, 155);
+}
+
+
+
